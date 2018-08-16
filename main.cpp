@@ -22,10 +22,10 @@ int stringCmp(char *buf, char *filter){
 	int size = strlen(filter);
 
 	if( strstr(buf, filter) != NULL ){
-		ret = 1;
+		ret = 1;	// drop
 		printf("[-] Drop!! : %s\n", buf);
 	}else{
-		ret = 0;
+		ret = 0;	// accept
 		printf("[+] Accept : %s\n", buf);
 	}
 	return ret;
