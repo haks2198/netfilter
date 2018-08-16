@@ -1,3 +1,3 @@
-# useage
+# usage
 
 #### iptables -A OUTPUT -p udp --dport 53 -j NFQUEUE
